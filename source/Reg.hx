@@ -10,6 +10,4 @@ import flixel.util.FlxSave;
 class Reg
 {
 
-  public static inline var MOVE_SPEED = 5; // pixels per frame
-
 }
