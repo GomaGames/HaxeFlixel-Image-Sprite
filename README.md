@@ -6,11 +6,26 @@ See our other [HaxeFlixel Code Samples](https://github.com/GomaGames?query=HaxeF
 
 ----
 
-## Move an Image Sprite around using keyboard controls
+## Render a sprite to stage
 
-![shape](/doc/movement.gif)
+![screenshot](/doc/screenshot.png)
 
-Press up,down,left,right or w,a,s,d to move the sprite around the stage.
+This simple demonstration creates a new sprite class at [sprites/Player.hx](/source/sprites/Player.hx)
+
+This is recommended for sprites that will need to have it's own properties and methods to seperate it's logic.
+
+However, for the simplest image sprite, you could have done this in a FlxState instead:
+
+```
+// create an instance of the Player sprite
+player_sprite = new FlxSprite();
+
+// add a graphic to the sprite
+player_sprite.loadGraphic("assets/images/jon-01.png");
+
+// add the sprite to this state
+add(player_sprite);
+```
 
 ----
 
