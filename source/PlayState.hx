@@ -9,6 +9,7 @@ import sprites.Player;
  */
 class PlayState extends FlxState
 {
+  private static inline var BG_COLOR = 0xFFF3FAFA;
   private var player_sprite : Player;
 
   /**
@@ -16,6 +17,8 @@ class PlayState extends FlxState
    */
   override public function create():Void
   {
+    bgColor = BG_COLOR;
+
     // create an instance of the Player sprite
     player_sprite = new Player();
 
