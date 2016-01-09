@@ -2,7 +2,10 @@
 Proof of concept - Render an Image graphic
 
 A great starting point for game projects and game jams.
+
 See our other [HaxeFlixel Code Samples](https://github.com/GomaGames?query=HaxeFlixel)
+
+See all of our [GameDev resources](http://gomagames.github.io/)
 
 ----
 
